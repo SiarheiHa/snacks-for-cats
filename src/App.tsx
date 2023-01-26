@@ -1,10 +1,10 @@
-import React from 'react';
+import { ProductsBlock } from './components/ProductsBlock';
 
 function App() {
   return (
-    <>
-      <p>cats</p>
-    </>
+    <main>
+      <ProductsBlock />
+    </main>
   );
 }
 

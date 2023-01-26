@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'Trebuchet MS';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Trebuchet MS'), url('../../public/fonts/TrebuchetMS.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Trebuchet MS';
+  font-style: bold;
+  font-weight: 700;
+  src: local('Trebuchet MS'), url('../../public/fonts/TrebuchetMS-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Exo 2.0';
+  font-style: thin;
+  font-weight: 100;
+  src: local('Exo 2.0'), url('./fonts/Exo2-Thin.ttf') format('truetype');
+}
+
+$font-primary: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial,
+  sans-serif;
+$font-secondary: 'Exo 2.0', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+@mixin font-primary-r {
+  font-family: $font-primary;
+  font-weight: 400;
+}
+
+@mixin font-primary-b {
+  font-family: $font-primary;
+  font-weight: 700;
+}
+
+@mixin font-secondary-t {
+  font-family: $font-secondary;
+  font-weight: 100;
+}

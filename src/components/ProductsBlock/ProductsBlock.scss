@@ -1,0 +1,15 @@
+@use '../../styles/fonts.scss' as *;
+
+.products-block {
+  max-width: 1300px;
+  padding: 0 10px;
+  margin: auto;
+  &__title {
+    @include font-secondary-t;
+    font-size: 3.6rem;
+    line-height: 44px;
+    text-align: center;
+    text-shadow: 0px 1px 1px #000000;
+    margin-bottom: 24px;
+  }
+}
