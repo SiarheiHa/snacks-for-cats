@@ -16,7 +16,7 @@
   font-family: 'Exo 2.0';
   font-style: thin;
   font-weight: 100;
-  src: local('Exo 2.0'), url('./fonts/Exo2-Thin.ttf') format('truetype');
+  src: local('Exo 2.0'), url('../../public/fonts/Exo2-Thin.ttf') format('truetype');
 }
 
 $font-primary: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial,
