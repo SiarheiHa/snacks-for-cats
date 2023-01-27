@@ -2,6 +2,7 @@ import { Product } from '../../types/types';
 import classNames from 'classnames';
 
 import styles from './ProductCard.module.scss';
+import { Feature } from './Feature';
 
 interface ProductCardProps {
   product: Product;
@@ -40,7 +41,7 @@ const ProductCard = ({ product, isInCart, onClick }: ProductCardProps) => {
           <ul>
             {features.map((feature, i) => (
               <li key={i} className={styles.feature}>
-                {feature}
+                <Feature text={feature} />
               </li>
             ))}
           </ul>
